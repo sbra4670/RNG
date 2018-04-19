@@ -9,16 +9,17 @@
 #ifndef RandomNumber_hpp
 #define RandomNumber_hpp
 
+#include <cstdio>
+#include <cstdlib>
+#include <ctime>
 #include <iostream>
-#include <stdlib.h>
-#include <stdio.h>
 
 using namespace std;
 
 class RandomNumberGen
 {
 public:
-    void NumGen();
+    void start();
 };
 
 #endif /* RandomNumber_hpp */
